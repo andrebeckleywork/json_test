@@ -10,7 +10,7 @@
     <div id="content"></div>
     <script>
 
-        fetch("htttps://ci-swapi.herokuapp.com/api/")
+        fetch("https://ci-swapi.herokuapp.com/api/")
             .then(reponse => reponse.text())
             .then(data => {
                 document.getElementById("content").innerText = data;
